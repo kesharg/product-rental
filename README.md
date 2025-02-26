@@ -31,6 +31,7 @@ Clone this repository to your local machine using Git:
 
 
 git clone https://github.com/kesharg/product-rental.git
+
 cd product-rental
 
 
