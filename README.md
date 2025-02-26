@@ -114,7 +114,7 @@ Example Responses :
             ]
         }
     ]
-}
+    }
 
 
 ### Contributing
