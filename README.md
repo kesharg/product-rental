@@ -30,14 +30,14 @@ Before getting started, make sure you have the following installed on your syste
 Clone this repository to your local machine using Git:
 
 
-git clone https://github.com/kesharg/product-rental.git
+    git clone https://github.com/kesharg/product-rental.git
 
-cd product-rental
+    cd product-rental
 
 
 ### 2. Install the dependencies:
    
-   composer install
+    composer install
 
 ### 3. Copy the .env.example file to .env:
 
@@ -54,7 +54,7 @@ cd product-rental
 
 ### 5. Generate the application key:
 
-   php artisan key:generate
+    php artisan key:generate
 
 ### Running Migrations and Seeders
 
@@ -65,7 +65,7 @@ Run the migrations to create the necessary tables in the database, and seed the 
 ### Testing the API
 1. Run the Laravel development server:
 
-    php artisan serve
+       php artisan serve
 
 2. Use a tool like Postman or cURL to test the API endpoints. Example API request:
 
@@ -73,7 +73,8 @@ Run the migrations to create the necessary tables in the database, and seed the 
 
 Where {id} is the product ID, region_id is the region filter, and rental_period_id is the rental period filter.
 
-Example Responses
+Example Responses :
+
     {
     "id": 1,
     "name": "Product 1",
